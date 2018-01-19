@@ -1,7 +1,7 @@
 ## fictrac_phidget_aout_demo 
 
-Demo Fictrac client (redis channel subscriber) which outputs an analog voltage proportional to 
-the rate of change in heading. 
+Demo Fictrac client (redis channel subscriber) which outputs an analog voltage
+proportional to the rate of change in heading. 
 
 ## Installation
 
@@ -12,9 +12,15 @@ $ python setup.py install
 
 ```
 
+## FicTrac
+
+This client sequires the flyranch_fictrac version of FicTrac which publishes
+data in real-time on the "fictrac" redis channel.
+
 ## Hardware
 
 Analog values are output on the [PhidgetAnalog 4-Output](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=1018) device.
+
 
 
 
