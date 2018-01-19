@@ -1,6 +1,6 @@
 ## fictrac_phidget_aout_demo 
 
-Demo Fictrac client (redis channel subscriber) which outputs and analog voltage proportional to 
+Demo Fictrac client (redis channel subscriber) which outputs an analog voltage proportional to 
 the rate of change in heading. 
 
 ## Installation
