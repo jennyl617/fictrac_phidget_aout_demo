@@ -14,7 +14,7 @@ $ python setup.py install
 
 ## FicTrac
 
-This client sequires the flyranch_fictrac version of FicTrac which publishes
+This client requires the **flyranch_fictrac** version of FicTrac which publishes
 data in real-time on the "fictrac" redis channel.
 
 ## Hardware
