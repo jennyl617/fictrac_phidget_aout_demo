@@ -1,6 +1,6 @@
 ## fictrac_phidget_aout_demo 
 
-Fictrac client (redis channel subscriber) which outputs and analog voltage proportional to 
+Demo Fictrac client (redis channel subscriber) which outputs and analog voltage proportional to 
 the rate of change in heading. 
 
 ## Installation
@@ -11,6 +11,11 @@ Requirements: python-redis, Phidget22Python
 $ python setup.py install 
 
 ```
+
+## Hardware
+
+Analog values are output on the [PhidgetAnalog 4-Output](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=1018) device.
+
 
 
 ## Example
