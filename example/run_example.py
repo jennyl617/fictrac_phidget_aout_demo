@@ -1,4 +1,4 @@
-from fictrac_phidget_aout_demo import FicTracAoutDemo
+from fictrac_phidget_aout_demo import aout_demo
 
 param = { 
         'rate_to_volt_const': 0.05,   # Constant for converting heading rate to voltage
@@ -8,6 +8,6 @@ param = {
         'lowpass_cutoff': 1.0,        # Lowpass filter cutoff frequency
         }
 
-client = FicTracAoutDemo(param=param)
+client = aout_demo.FicTracAoutDemo(param=param)
 client.run()
 

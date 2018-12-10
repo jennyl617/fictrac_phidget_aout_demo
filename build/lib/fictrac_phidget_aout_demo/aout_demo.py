@@ -32,7 +32,7 @@ class FicTracAoutDemo(object):
         self.pubsub.subscribe('fictrac')
 
         # Setup analog output
-        self.aout = Phidget22.Devices.VoltageOutput()
+        self.aout = Phidget22.Devices.VoltageOutput.VoltageOutput()
         self.aout.setChannel(self.param['aout_channel'])
         self.aout.openWaitForAttachment(5000)
         self.aout.setVoltage(0.0)
